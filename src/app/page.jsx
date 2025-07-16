@@ -156,59 +156,65 @@ function MainComponent() {
       },
     },
     projects: {
-      items: [
-        {
-          title: "Panda Scoop",
-          icon: "fa-rocket",
-          description:
-            "An early-stage startup focused on innovative solutions.",
-          stack: ["Business Plan", "Market Research", "Startup"],
-          role: "Entrepreneurship",
-          expandedDetails: `Panda scoop is a early idea stage startup executed beautifully with multiple demos and presentations. The startup won 4th place in Manthan 2024, a business plan competition organised by Federation of Karnataka Chambers of Commerce and Industry, one of the highest honoured business competitions in the Karnataka state known for its startup culture.
+  items: [
+    {
+      title: "Panda Scoop",
+      icon: "fa-rocket",
+      description:
+        "An early-stage startup focused on innovative solutions.",
+      stack: ["Business Plan", "Market Research", "Startup"],
+      role: "Entrepreneurship",
+      image: "/images/Panda.jpg",
+      expandedDetails: `Panda scoop is a early idea stage startup executed beautifully with multiple demos and presentations. The startup won 4th place in Manthan 2024, a business plan competition organised by Federation of Karnataka Chambers of Commerce and Industry, one of the highest honoured business competitions in the Karnataka state known for its startup culture.
 
 With over 300+ teams all over state, various ages, and varied backgrounds, the startup won overall cash prize of ~1 Lakh rupees.`,
-        },
-        {
-          title: "IV Bag Monitoring System",
-          icon: "fa-heartbeat",
-          description:
-            "IoT-based remote monitoring system for intravenous fluids.",
-          stack: ["IoT", "Healthcare", "Research"],
-          role: "IoT and Research",
-          expandedDetails: `An IoT Project that manages IV fluids monitoring remotely, this project got shortlisted into top 29 teams of FKCCI business plan competition.
+    },
+    {
+      title: "IV Bag Monitoring System",
+      icon: "fa-heartbeat",
+      description:
+        "IoT-based remote monitoring system for intravenous fluids.",
+      stack: ["IoT", "Healthcare", "Research"],
+      role: "IoT and Research",
+      image: "/images/IV.jpg",
+      expandedDetails: `An IoT Project that manages IV fluids monitoring remotely, this project got shortlisted into top 29 teams of FKCCI business plan competition.
 
 A research paper titled "Intravenous Bag Monitoring and Alert System - A Prototype" was written and got selected at over 5+ International reputed conferences across the globe. The paper was presented at International Conference on Biomedical Engineering Science and Technology and is currently under publication with Springer.`,
-        },
-        {
-          title: "Eventify",
-          icon: "fa-ticket",
-          description:
-            "A comprehensive event management platform — create, host, ticket.",
-          stack: ["React", "MongoDB", "Node.js"],
-          role: "Full-Stack Development",
-          url: "eventify14.created.app",
-        },
-        {
-          title: "Genreize",
-          icon: "fa-music",
-          description:
-            "A music genre classification platform using HuBERT transformer model.",
-          url: "genreize.created.app",
-          stack: ["PyTorch", "TorchAudio", "Deep Learning"],
-          role: "Machine learning",
-        },
-        {
-          title: "IITM Outreach Portal",
-          icon: "fa-bullseye",
-          description:
-            "An internal AI-powered guest handling & request system for Paradox Fest, IITM.",
-          stack: ["React", "MongoDB", "Node.js"],
-          role: "Full Stack Development",
-          status: "In Progress",
-          url: "unified.created.app",
-        },
-      ],
     },
+    {
+      title: "Eventify",
+      icon: "fa-ticket",
+      description:
+        "A comprehensive event management platform — create, host, ticket.",
+      stack: ["React", "MongoDB", "Node.js"],
+      role: "Full-Stack Development",
+      image: "/images/Eventify.png",
+      url: "eventify14.created.app",
+    },
+    {
+      title: "Genreize",
+      icon: "fa-music",
+      description:
+        "A music genre classification platform using HuBERT transformer model.",
+      stack: ["PyTorch", "TorchAudio", "Deep Learning"],
+      role: "Machine learning",
+      image: "/images/Genreize.png",
+      url: "genreize.created.app",
+    },
+    {
+      title: "IITM Outreach Portal",
+      icon: "fa-bullseye",
+      description:
+        "An internal AI-powered guest handling & request system for Paradox Fest, IITM.",
+      stack: ["React", "MongoDB", "Node.js"],
+      role: "Full Stack Development",
+      status: "In Progress",
+      image: "/images/Unified.png",
+      url: "unified.created.app",
+    },
+  ],
+},
+
     experience: {
       items: [
         {
