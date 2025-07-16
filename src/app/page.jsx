@@ -192,7 +192,7 @@ function MainComponent() {
             stack: ["React", "MongoDB", "Node.js"],
             role: "Full-Stack Development",
             url: "eventify14.created.app",
-            image: "/images/Unified.png",
+            image: "/images/Eventify.png",
           },
           {
             title: "Genreize",
